@@ -1,0 +1,11 @@
+root = "'\\~codepark/\\(vfs\\)'"
+
+[[dir]]
+path = "'/usr/bin'"
+
+[[dir]]
+path = "'/usr/local/bin'"
+
+[[dir]]
+resolve = "''"
+path = "'globalThis.__codepark__.vfs'"

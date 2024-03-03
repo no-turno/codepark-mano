@@ -1,0 +1,11 @@
+{
+    "plugins": [],
+    "env": {
+        "params": {
+            "runner": "--experimental-vm-modules"
+        }
+    },
+    "ts": {
+        "path": "./node_modules/typescript/lib/typescript.js"
+    }
+}

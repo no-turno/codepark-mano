@@ -1,0 +1,30 @@
+{
+  "name": "codepark-man",
+  "main": "src/main.ts",
+  "module": "src/main.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun run --watch ./app/main.ts"
+  },
+  "dependencies": {
+    "citty": "latest",
+    "consola": "latest",
+    "elysia": "latest",
+    "@elysiajs/static": "latest",
+    "@elysiajs/websocket": "latest",
+    "@elysiajs/eden": "latest",
+    "@elysiajs/html": "latest",
+    "@elysiajs/swagger": "latest",
+    "@bogeychan/elysia-polyfills": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/bun": "latest",
+    "@ziglang/cli": "latest",
+    "tsup": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
+  }
+}

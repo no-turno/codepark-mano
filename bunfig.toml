@@ -1,0 +1,21 @@
+jsx = "react-jsx"
+telemetry = false
+logLevel = "debug"
+smol = true
+
+[define]
+"process.env.CODEPARK_HOME" = "'/tmp/codepark'"
+"process.env.RUNTIME" = "'bun'"
+"process.env.LOG_SHELL_COMMANDS" = "'0'"
+"process.env.LOADERS" = "'.wasm,.env'"
+"process.env.CHECK_EDEN" = "$checkEden"
+
+[loader]
+".ts" = "ts"
+".js" = "js"
+".codepark" = "js"
+".json" = "json"
+".toml" = "toml"
+
+[install]
+auto = true
